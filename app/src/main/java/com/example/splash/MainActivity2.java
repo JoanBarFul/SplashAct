@@ -39,7 +39,7 @@ public class MainActivity2 extends AppCompatActivity {
         Animation fade2 = AnimationUtils.loadAnimation(this, R.anim.fade_in2);
         logo2.startAnimation(fade2);
 
-        // Fade2 list5ener since it's the longer one
+        // Fade2 listener since it's the longer one
         fade2.setAnimationListener(new Animation.AnimationListener() {
             @Override
             public void onAnimationStart(Animation animation) {
